@@ -208,9 +208,9 @@ function displayClassifieds(classifieds) {
         itemElement.dataset.price = item.price;
 
         itemElement.innerHTML = `
-            <div class="fw-card qa-fw-card b-trending-card h-height-100p">
+<div class="fw-card qa-fw-card b-trending-card h-height-100p">
 <a href="products/${item._id}">
-<div class="fw-card-media qa-fw-card-media" style="background-color:#FFFFFF;background-image:url('/images/${item.image_path}')">
+<div class="fw-card-media qa-fw-card-media" style="background-color:#FFFFFF;background-image:url('${item.image}')">
     <!---->
     <div class="b-trending-card__counter">1
 </div>
