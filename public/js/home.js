@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("In")
-    fetch('https://mini-eccommerce.onrender.com//products',{
+    fetch('https://mini-eccommerce.onrender.com/products',{
         method:'get',
     }).then((data)=>{
         return JSON.stringify(data);

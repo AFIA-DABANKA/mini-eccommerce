@@ -10,7 +10,7 @@ add_product_btn.addEventListener('click',function(){
 
     // console.log(name,description,price,stock_quantity)
 
-    fetch('https://mini-eccommerce.onrender.com//add',{
+    fetch('https://mini-eccommerce.onrender.com/add',{
         method:'post',
         headers: {
             'Content-Type': 'application/json'
