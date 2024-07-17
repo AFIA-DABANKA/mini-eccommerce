@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function updateNumber(product_id,quantity){
-    fetch('https://ecommerceapp-n0om.onrender.com/carts/'+product_id,{
+    fetch('https://mini-eccommerce.onrender.com//carts/'+product_id,{
         method:'put',
         headers: {
             'Content-Type': 'application/json'
@@ -54,7 +54,7 @@ function updateNumber(product_id,quantity){
 
 
  function delete_btn(product_id){
-    fetch('https://ecommerceapp-n0om.onrender.com/carts/'+product_id,{
+    fetch('https://mini-eccommerce.onrender.com//carts/'+product_id,{
         method:'delete',
         headers: {
             'Content-Type': 'application/json'

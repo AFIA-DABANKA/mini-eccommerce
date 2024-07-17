@@ -180,7 +180,7 @@ applyFiltersButton.addEventListener('click', () => {
     console.log(JSON.stringify({ region:selectedRegion,category:selectedCategory,price:selectedPrice }));
     console.log('====================================');
 
-    fetch('https://ecommerceapp-n0om.onrender.com/filter', {
+    fetch('https://mini-eccommerce.onrender.com/filter', {
         method: 'post',
         headers: {
             'Content-Type': 'application/json'
